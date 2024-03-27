@@ -13,7 +13,7 @@ namespace WeatherApp
             // Add services to the container
 
             builder.Services.AddHttpClient<OpenWeatherService>();
-            builder.Services.AddSingleton ( new OpenWeatherService (new HttpClient(), "6a0763933b6c10b00f7266b14413b9ce"));
+            builder.Services.AddSingleton ( new OpenWeatherService (new HttpClient(), "Your-API-Key"));
             builder.Services.AddControllers();
 
             builder.Services.AddCors(options => { options.AddPolicy("AllowedReactApp",

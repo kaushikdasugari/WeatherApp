@@ -5,5 +5,5 @@ I have included these projects together and then ran the application.
 I have created only a skeletal application with just basic info.
 Please make a note that my backend has different file structure , but not as shown here.
 
-Please feel free to use modify accordingly.
+Please feel free to use and modify accordingly.
 
